@@ -42,7 +42,7 @@ class Game {
 }
 
 
-//shuffle the deck fromhttps://www.geeksforgeeks.org/javascript-program-to-shuffle-deck-of-cards/ 
+//shuffle the deck from https://www.geeksforgeeks.org/javascript-program-to-shuffle-deck-of-cards/ 
 
     for (let i = this.deck.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
